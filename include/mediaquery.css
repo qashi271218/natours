@@ -1,0 +1,171 @@
+/* footer */
+@media(max-width:992px)
+{
+	.footer-container
+	{
+		grid-template-columns: 80%;
+		justify-content: space-around;
+	}
+	.footer-navigation
+	{
+		margin-bottom: 5rem;
+	}
+}
+@media(min-width:993px) and (max-width:1256px)
+{
+	.footer-list
+	{
+		grid-template-columns:repeat(2,50%);
+	}
+}
+
+/* flipboxes */
+@media(max-width:1008px)
+{
+	.tours-container
+	{
+		grid-template-columns: 90%;
+		margin: 0 8% 0 0;
+	}
+}
+
+/* about-container */
+@media(max-width:992px)
+{
+	.about-container
+	{
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-columns: 200px;
+	}
+	.about-container p
+	{
+text-align: justify;
+	}
+	.about-composition
+	{
+		align-self: center;
+	}
+}
+
+/* section-features */
+
+@media(min-width:768px) and (max-width:992px)
+{
+.section-features
+{
+	grid-template-columns: 44% 44%;
+}
+}
+
+@media(max-width:767px)
+{
+.section-features
+{
+	grid-template-columns: 80%;
+	justify-content: space-around;
+	grid-gap: 5rem;
+}
+}
+
+@media(max-width:626px)
+{
+	.heading-primary-main
+	{
+		letter-spacing: 1.5rem;
+	}
+}
+@media(max-width:502px)
+{
+	.heading-primary-main
+	{
+		letter-spacing: .5rem;
+		font-size: 4rem;
+	}
+}
+
+@media(max-width:602px)
+{
+	.story
+	{
+		transform: skewX(0deg);
+	}
+	.story__shape
+	{
+		transform: translateX(-3rem);
+	}
+	.story p
+{
+	transform: skewX(0deg);
+}
+.story h3
+{
+	transform: skewX(0deg);
+}
+}
+
+@media(max-width:768px)
+{
+	.book
+	{
+	background-image: linear-gradient(
+		rgba(255,255,255,0.9) 0%,
+		 rgba(255,255,255,0.9) 100%,
+		  transparent 70%);
+
+}
+	.book__form
+{
+	width: 100%;
+	padding: 6rem;
+}
+.radio-group {
+    display: block;
+}
+.radio-group:not(:last-child)
+{
+	margin-bottom: 1rem;
+}
+}
+
+/* popup */
+
+@media(min-width:578px) and (max-width:1122px)
+{
+	.popup-image img
+	{
+		display: none;
+	}
+	.popup-container
+	{
+			grid-template-columns: 1fr;
+	}
+	.popup-paragraph
+	{
+			grid-template-columns: 1fr;
+	}
+}
+
+@media(max-width:576px)
+{
+	.popup-image img
+	{
+		display: none;
+	}
+	.popup-container
+	{
+			grid-template-columns: 1fr;
+	}
+	.popup-paragraph
+	{
+			grid-template-columns: 1fr;
+	}
+	.popup-paragraph div:nth-child(1)
+	{
+		display: none;
+	}
+	#booking-heading
+	{
+		font-size: 3rem;
+	}
+	
+}

@@ -1,0 +1,14 @@
+@import "../include/variable.css";
+@import "../include/typography.css";
+@import "../include/grid.css";
+@import "../include/header.css"; 
+@import "../include/about.css";
+@import "../include/features.css";
+@import "../include/tours.css";
+@import "../include/stories.css";
+@import "../include/booking.css";
+@import "../include/footer.css";
+@import "../include/navigation.css";
+@import "../include/popup.css";
+@import "../include/mediaquery.css";
+
